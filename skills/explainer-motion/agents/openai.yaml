@@ -1,0 +1,4 @@
+interface:
+  display_name: "机制解释动画"
+  short_description: "Animate mechanisms with clear state changes."
+  default_prompt: "使用 $explainer-motion 将这段机制变成可见状态变化，组合合适的 2D 和 3D，并先做代表片段。"

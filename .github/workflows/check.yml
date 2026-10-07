@@ -1,0 +1,17 @@
+name: Check skills and public package
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python scripts/validate_package.py .
+      - run: python scripts/privacy_scan.py .
+      - run: python -m unittest discover -s tests -v

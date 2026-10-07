@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频素材索引"
+  short_description: "Index source clips with timecodes and evidence."
+  default_prompt: "使用 $video-source-index 建立这些素材的来源清单、时间内容索引和可复用区间。"

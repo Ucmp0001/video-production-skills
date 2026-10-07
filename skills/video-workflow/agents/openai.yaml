@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频制作总控"
+  short_description: "Coordinate video stages and preserve current work."
+  default_prompt: "使用 $video-workflow 根据现有资料和版本定位下一步，推进到明确的交付状态。"

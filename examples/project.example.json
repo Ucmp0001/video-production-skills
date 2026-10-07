@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "title": "虚构演练项目",
+  "fictional": true,
+  "current_version": "v001",
+  "format": {
+    "aspect_ratio": "9:16",
+    "fps": 30,
+    "target_seconds": 60
+  },
+  "paths": {
+    "sources": "sources/",
+    "work": "work/",
+    "outputs": "outputs/"
+  },
+  "tools": {
+    "renderer": null,
+    "transcriber": null,
+    "voice_provider": null,
+    "generation_provider": null,
+    "creator_model": null,
+    "reviewer_model": null
+  },
+  "production": {
+    "use_generated_broll": false,
+    "requested_native_resolution": null,
+    "max_generated_groups": 3,
+    "music_asset": null,
+    "voice_reference": null,
+    "logo_asset": null
+  },
+  "approval": {
+    "paid_generation_plan": null,
+    "external_publication": false
+  }
+}
