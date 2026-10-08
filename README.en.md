@@ -2,7 +2,7 @@
 
 **Turn a video request into a workflow your AI assistant can follow.**
 
-[简体中文](README.md) · English
+[简体中文](README.md) · English · [Follow on X: @eazymoney888](https://x.com/eazymoney888)
 
 11 composable skills for Codex, Claude Code and assistants supporting `SKILL.md`. Cover sources, scripts, shots, explanatory motion, conceptual footage, voice/captions, covers and delivery. Install one or combine them, without a required model, voice or operating system.
 

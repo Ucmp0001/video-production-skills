@@ -2,7 +2,7 @@
 
 **把一句制作需求，拆成助手能逐步执行的视频工作流。**
 
-简体中文 · [English](README.en.md)
+简体中文 · [English](README.en.md) · [关注作者：X @eazymoney888](https://x.com/eazymoney888)
 
 11 个可组合的 AI 视频制作技能，适用于 Codex、Claude Code 等支持 `SKILL.md` 的助手。覆盖资料、口播、分镜、解释动画、概念镜头、配音字幕、封面和交付。可只装一个，不绑定指定模型、音色或操作系统。
 
