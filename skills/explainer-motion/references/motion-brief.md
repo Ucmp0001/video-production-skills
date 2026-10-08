@@ -1,4 +1,6 @@
 # Motion Brief 与实现包
+
+[English](motion-brief.en.md)
 ## 设计输入
 1. 观众与解释目标。
 2. 已核验主张、数值、口径和假设。

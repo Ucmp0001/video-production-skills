@@ -3,6 +3,11 @@ name: video-shot-planner
 description: Turn a stable voiceover into event-based shots, source intervals, asset gaps and clock conventions for editing or animation.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 分镜与素材覆盖
 输入最新口播、来源、可用素材、画幅与实际音频。有录音按真实句子和事件排时序；没有录音时明确估时，不伪造精确锚点。
 

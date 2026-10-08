@@ -3,6 +3,11 @@ name: cover-independent-review
 description: Independently inspect actual cover masters and platform exports for content payoff, visual quality, typography and mobile readability.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 独立封面审查
 要求设计任务之外的审阅者或新隔离上下文。不同上下文不等于不同模型；如实记录角色和实际模型，设计者自己的总结不能当独立报告。
 

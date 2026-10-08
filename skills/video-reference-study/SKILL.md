@@ -3,6 +3,11 @@ name: video-reference-study
 description: Study supplied tutorials or finished videos with timecoded observations, separate author claims from verified behavior, and extract reusable production methods.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 参考视频学习
 先区分学习沉淀、创作设计、续作修订与审查。只要求学习时，交方法与模板，不顺带制作、购买、安装或发布。
 

@@ -3,6 +3,11 @@ name: video-source-index
 description: Index local interviews, recordings or video sources with hashes, observed timecoded content, reusable intervals, provenance and rights status.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 视频素材索引
 适用于已有视频、采访、录屏与参考片。元数据、语音转写和画面观察分别提供信息，不能互相代替。
 

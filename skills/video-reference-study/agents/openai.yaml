@@ -1,4 +1,4 @@
 interface:
-  display_name: "参考视频学习"
+  display_name: "参考视频学习 / Reference Study"
   short_description: "Study reference videos and extract useful methods."
-  default_prompt: "使用 $video-reference-study 拆解参考视频，区分实际观察、作者声称与可复用方法。"
+  default_prompt: "Use $video-reference-study to analyze the reference video, separating direct observations, author claims and reusable methods. Reply in the language requested by the user. / 按用户要求的语言输出。"

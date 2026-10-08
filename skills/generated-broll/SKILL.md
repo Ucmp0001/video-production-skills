@@ -3,6 +3,11 @@ name: generated-broll
 description: Plan optional generated conceptual B-roll with prompts, native resolution verification, budget authorization and recoverable provider tasks.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # AI 概念补充镜头
 用于无法用真实素材或简洁解释图表达的概念画面。用户不用 AI 视频或仅改字幕/Logo 时跳过。生成内容不能提供新闻证据，也不能伪造已发生的行动、交易或现场。
 

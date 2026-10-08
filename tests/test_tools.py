@@ -2,6 +2,7 @@ import hashlib
 import importlib.util
 import json
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -141,6 +142,19 @@ class PrivacyTests(unittest.TestCase):
 
 
 class InstallTests(unittest.TestCase):
+    def test_full_install_preserves_bilingual_instructions_and_references(self):
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / "skills"
+            installed = installer.install(target)
+            self.assertEqual(len(installed), 11)
+            for source in (REPO / "skills").iterdir():
+                if not source.is_dir():
+                    continue
+                for relative in [Path("SKILL.md"), Path("SKILL.en.md"),
+                                 *[p.relative_to(source) for p in (source / "references").glob("*.md")]]:
+                    self.assertEqual((source / relative).read_bytes(),
+                                     (target / source.name / relative).read_bytes())
+
     def test_installed_tools_run_from_unrelated_working_directory(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -205,6 +219,24 @@ class InstallTests(unittest.TestCase):
 
 
 class PackageTests(unittest.TestCase):
+    def test_missing_english_reference_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            skill = root / "skills" / "evidence-story-script"
+            shutil.copytree(REPO / "skills" / skill.name, skill)
+            (skill / "references" / "story-evidence.en.md").unlink()
+            result = validator.validate(root)
+            self.assertTrue(any("missing English reference" in e for e in result["errors"]))
+
+    def test_missing_english_entrypoint_is_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            skill = root / "skills" / "evidence-story-script"
+            shutil.copytree(REPO / "skills" / skill.name, skill)
+            (skill / "SKILL.en.md").unlink()
+            result = validator.validate(root)
+            self.assertTrue(any("missing English instructions" in e for e in result["errors"]))
+
     def test_all_skills_and_links(self):
         result = validator.validate(REPO)
         self.assertEqual(len(result["skills"]), 11)

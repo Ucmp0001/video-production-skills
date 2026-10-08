@@ -3,6 +3,11 @@ name: video-workflow
 description: Resume or plan a video project from its current artifacts, route only missing stages, and track delivery status and revision impact.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 视频制作总控
 从用户指定版本和已有产物进入。先明确是新片、续作、原采访拆条、字幕修复还是只改封面；不重启已经稳定的阶段。
 

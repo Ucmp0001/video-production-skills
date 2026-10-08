@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI 概念补充镜头"
+  display_name: "AI 概念补充镜头 / Generated B-roll"
   short_description: "Plan generated clips with budgets and recovery."
-  default_prompt: "使用 $generated-broll 为缺失的概念镜头准备提示词、原生规格和预算计划，先不付费提交。"
+  default_prompt: "Use $generated-broll to prepare prompts, native specifications and a budget for missing conceptual shots without submitting paid tasks yet. Reply in the language requested by the user. / 按用户要求的语言输出。"

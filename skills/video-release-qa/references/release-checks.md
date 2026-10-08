@@ -1,4 +1,6 @@
 # 验收与平台包装
+
+[English](release-checks.en.md)
 ## 当前输出
 文件/哈希、稿件/SRT/工程版本、尺寸、fps、时长、目标平台与修改范围。
 

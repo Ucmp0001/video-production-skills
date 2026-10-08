@@ -6,7 +6,8 @@ from pathlib import Path
 import re
 
 TOP_FILES = {"README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "CONTRIBUTING.md",
-             "SECURITY.md", ".gitignore"}
+             "SECURITY.md", ".gitignore", "README.en.md", "CONTRIBUTING.en.md",
+             "SECURITY.en.md", "THIRD_PARTY_NOTICES.en.md"}
 TOP_DIRS = {"skills", "scripts", "tests", "docs", "examples", "licenses", ".github"}
 EXTENSIONS = {".md", ".py", ".json", ".yaml", ".yml", ".txt"}
 SKIP_DIRS = {".git", "__pycache__"}

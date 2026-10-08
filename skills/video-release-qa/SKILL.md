@@ -3,6 +3,11 @@ name: video-release-qa
 description: Review a current video or prepare platform publication copy using separate factual, technical, audiovisual, cover and rights checks.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 成片与发布包验收
 两个模式：成片审阅、平台包装。用户只要文案时可先给草稿，不因封面缺失停写；完整发布包按实际目标检查全部必需产物。
 

@@ -3,6 +3,11 @@ name: voice-subtitle-sync
 description: Prepare or repair voice and subtitles using authorized recordings or configured TTS, measured audio timing, transcript checks and SRT validation.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 配音与字幕同步
 先判断是已有原声字幕、本人录音、授权配音还是字幕局部修复。原声优先复用；用户指定声音、服务、音乐时保持，不默认克隆声音或更换服务。
 

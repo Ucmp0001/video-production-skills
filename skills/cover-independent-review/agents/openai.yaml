@@ -1,4 +1,4 @@
 interface:
-  display_name: "独立封面审查"
+  display_name: "独立封面审查 / Independent Cover Review"
   short_description: "Review actual covers independently of design."
-  default_prompt: "使用 $cover-independent-review 独立查看封面原图与各比例导出，核对正文兑现和手机可读性。"
+  default_prompt: "Use $cover-independent-review to independently inspect actual cover masters and exports for content payoff and mobile readability. Reply in the language requested by the user. / 按用户要求的语言输出。"

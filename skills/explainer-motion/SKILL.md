@@ -3,6 +3,11 @@ name: explainer-motion
 description: Design or implement explanatory motion with observable state changes, optional 2D and 3D, deterministic timing and actual preview checks.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 机制解释动画
 目标是让观众看见关系怎样改变。适用于因果、流程、尺度、对比、数据与产品机制；不要求把有价值的真实素材换成动画。
 

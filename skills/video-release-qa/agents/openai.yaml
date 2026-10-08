@@ -1,4 +1,4 @@
 interface:
-  display_name: "成片与发布包验收"
+  display_name: "成片与发布包验收 / Video Release QA"
   short_description: "Review video delivery and draft platform copy."
-  default_prompt: "使用 $video-release-qa 审阅当前成片，按实际证据列待项，并准备目标平台文案和标签。"
+  default_prompt: "Use $video-release-qa to review the current export, list evidence-based gaps and prepare target-platform copy with hashtags. Reply in the language requested by the user. / 按用户要求的语言输出。"

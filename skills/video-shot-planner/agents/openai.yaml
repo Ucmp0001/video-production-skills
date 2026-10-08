@@ -1,4 +1,4 @@
 interface:
-  display_name: "分镜与素材覆盖"
+  display_name: "分镜与素材覆盖 / Shot Planner"
   short_description: "Plan event-based shots and source coverage."
-  default_prompt: "使用 $video-shot-planner 将稳定口播拆成分镜，检查素材区间、时钟与解释任务。"
+  default_prompt: "Use $video-shot-planner to plan shots from the stable voiceover, checking source intervals, clocks and explanatory purpose. Reply in the language requested by the user. / 按用户要求的语言输出。"

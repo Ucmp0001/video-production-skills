@@ -16,3 +16,5 @@ private/
 *.pem
 *.key
 .DS_Store
+.agents/
+.claude/

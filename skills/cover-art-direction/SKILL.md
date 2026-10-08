@@ -3,6 +3,11 @@ name: cover-art-direction
 description: Design standalone publication covers from stable content and brand references, including complete headlines, visual relationships and recomposed aspect ratios.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 封面视觉导演
 作为专门设计任务处理封面。输入稳定正文、标题/核心冲突、来源限定、目标平台、授权素材、品牌和真实参考图，不随手把视频截图当正式方案。
 

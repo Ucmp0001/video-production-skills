@@ -1,4 +1,4 @@
 interface:
-  display_name: "证据故事口播"
+  display_name: "证据故事口播 / Evidence Story Script"
   short_description: "Write story voiceovers grounded in evidence."
-  default_prompt: "使用 $evidence-story-script 把已核验资料写成口播，保留事实限定并标出开头兑现位置。"
+  default_prompt: "Use $evidence-story-script to turn verified sources into a voiceover, retaining qualifiers and mapping the opening to its payoff. Reply in the language requested by the user. / 按用户要求的语言输出。"

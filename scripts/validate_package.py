@@ -36,6 +36,17 @@ def validate(root):
         if len(text.split()) > 1800:
             errors.append(f"{folder.name}: oversized entrypoint; move detail to references")
         names.append(name)
+        english = folder / "SKILL.en.md"
+        if not english.is_file() or not english.read_text(encoding="utf-8").strip():
+            errors.append(f"{folder.name}: missing English instructions")
+        if "[SKILL.en.md](SKILL.en.md)" not in text:
+            errors.append(f"{folder.name}: missing English routing")
+        for reference in (folder / "references").glob("*.md"):
+            if reference.name.endswith(".en.md"):
+                continue
+            translated = reference.with_name(reference.stem + ".en.md")
+            if not translated.is_file() or not translated.read_text(encoding="utf-8").strip():
+                errors.append(f"{folder.name}: missing English reference {reference.name}")
         ui = folder / "agents" / "openai.yaml"
         if not ui.is_file():
             errors.append(f"{folder.name}: missing UI metadata")

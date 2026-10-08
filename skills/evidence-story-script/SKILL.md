@@ -3,6 +3,11 @@ name: evidence-story-script
 description: Write or revise a video voiceover from verified material, linking character or mechanism decisions, hooks and payoff to source certainty.
 ---
 
+[English instructions](SKILL.en.md) · 简体中文
+
+For English-language tasks, read [SKILL.en.md](SKILL.en.md) and its English reference templates before proceeding. Both editions use the same tools and authorization boundaries.
+
+
 # 证据故事口播
 先理解观众要追看的具体问题。人物/公司故事从目标、阻力、行动、选择、代价和结果推进；机制解释可直接从问题进入，不硬造主角。
 
